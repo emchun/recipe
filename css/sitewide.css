@@ -1,0 +1,89 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: black;
+}
+
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 50%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 1px solid darkred;
+}
+
+.title {
+    background-color:blanchedalmond;
+    font-size: 24px;
+    color: darkred;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center
+}
+
+.heading {
+    background-color: blanchedalmond;
+    font-size: 16px;
+    color: darkred;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.content {
+    background-color:whitesmoke;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.intro {
+    background-color:whitesmoke;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    padding-right:1em;
+    padding-left:1em;
+    text-align: left;
+}
+
+strong {
+    font-size: 13px;
+    color: darkred;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
