@@ -34,28 +34,28 @@ body {
 }
 
 .container {
-	margin-top:1em;
+	margin-top:0.5em;
 	margin-right:auto;
-	margin-bottom:1em;
+	margin-bottom:0.5em;
 	margin-left:auto;
-	width:50%;
+	width:70%;
 	max-width:1200px;
-	padding:3em;
-	border:1px solid darkred;
+	padding:1em;
+	border:2px solid darkred;
 }
 
 .title {
     background-color:blanchedalmond;
-    font-size: 24px;
-    color: darkred;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-align: center
+    font-size:24px;
+    color:darkred;
+    line-height:1.5em;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    text-align:center
 }
 
 .heading {
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
     font-size:16px;
     color:darkred;
     line-height:1.5em;
